@@ -1,0 +1,11 @@
+{application,yatzy,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{yatzy_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[yatzy_app,yatzy_score,yatzy_sup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
